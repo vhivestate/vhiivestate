@@ -1,30 +1,25 @@
 import React from 'react'
 import '../index.css'
-// import {FaGithub, FaLinkedin } from 'react-icons/fa';
-// import { RiTwitterLine } from 'react-icons/ri';
-// import {TbBrandDiscord} from 'react-icons/tb'
-// import { render } from '@testing-library/react';
-// import styled from 'styled-components';
+import { Twitter } from 'react-feather';
+import { GitHub } from 'react-feather';
+import { Instagram } from 'react-feather';
+import { Linkedin } from 'react-feather';
+import {TbBrandDiscord} from 'react-icons/tb'
+
+
 
 function Footer() {
     
   return (
     <footer>
-    
-      {/* <div className='socialMediaIcons'>
-      <a href="https://github.com/vhivestate/">
-      <FaGithub className='socialMediaIcons'/></a>
-
-      <a href="https://twitter.com/vhivestate/"> 
-      <RiTwitterLine className='socialMediaIcons'/></a>
-
-      <a href="https://discord.com/channels/950224023973933116/950224023973933121/">
-      <TbBrandDiscord className='socialMediaIcons'/> </a>
-
-      <a href="https://www.linkedin.com/in/valeriagarcia00974/">
-      <FaLinkedin className='socialMediaIcons'/> </a> */}
-
-      {/* </div> */}
+    <div className='icons'>
+        <a href='https://twitter.com/vhivestate'> <Twitter></Twitter> </a>
+        <a href='https://github.com/vhivestate'> <GitHub></GitHub> </a>
+        <a href='https://www.instagram.com/vhive.jpg/'> <Instagram></Instagram> </a>
+        <a href="https://discord.com/channels/950224023973933116/950224023973933121/">
+      <TbBrandDiscord /> </a>
+        <a href='https://github.com/vhivestate'> <Linkedin></Linkedin> </a>
+    </div>
       
       <div >
         <p>Website by Valeria Garcia</p>

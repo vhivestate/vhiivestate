@@ -18,3 +18,14 @@ nav {
   text-align: center;
 
 }
+
+/* footer styling */
+footer .icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+footer p {
+  text-align: center;
+}
