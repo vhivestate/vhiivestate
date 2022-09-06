@@ -6,6 +6,7 @@ import Projects from "./pages/Projects"
 import Resume from './pages/Resume';
 import Nav from "./components/Nav"
 import Landing from './pages/Landing';
+import Footer from './components/Footer';
 
 function App() {
   const [currentPage, setCurrentPage] = useState(0)
@@ -16,9 +17,9 @@ function App() {
     }else if(currentPage === 1){
       return <About></About>
     }else if (currentPage === 2){
-      return <Contact></Contact>
-    } else if (currentPage === 3) {
       return <Projects></Projects>
+    } else if (currentPage === 3) {
+      return <Contact></Contact>
     }
     else {
       return <Resume></Resume>
@@ -29,6 +30,9 @@ function App() {
     <>
       <Nav setCurrentPage={setCurrentPage}/>
       {displayPage()}
+    <main>
+      <Footer></Footer>
+    </main>
     </>
   )
 }

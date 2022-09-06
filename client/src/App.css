@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* nav styling */
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+/* contact form styling */
+.contactForm {
+  text-align: center;
+}
+.mail {
+  text-align: center;
+
+}

@@ -39,7 +39,7 @@ function Contact() {
       }
 
     return (
-        <section>
+        <section className='Form'>
           <h1 className='mail'>Email Me:</h1>
           <form className='contactForm' action="" id="contact-form" onSubmit={handleSubmit}>
             <div>
@@ -59,10 +59,10 @@ function Contact() {
                     <p className="error-text">{errorMessage}</p>
                 </div>
                 )}
-        <button>Submit</button>
+                <button className="btn glass">Submit</button>
           </form>
           {/* <img className='pngMail' src={mailPng}></img> */}
-          <h3 className='connect'>Connect with me:</h3>
+          {/* <h3 className='connect'>Connect with me:</h3> */}
         </section>
         );
 
