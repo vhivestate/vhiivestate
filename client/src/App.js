@@ -5,18 +5,22 @@ import Contact from "./pages/Contact"
 import Projects from "./pages/Projects"
 import Resume from './pages/Resume';
 import Nav from "./components/Nav"
+import Landing from './pages/Landing';
 
 function App() {
   const [currentPage, setCurrentPage] = useState(0)
 
   function displayPage(){
     if(currentPage === 0){
-      return <About></About>;
+      return <Landing></Landing>;
     }else if(currentPage === 1){
-      return <Contact></Contact>
+      return <About></About>
     }else if (currentPage === 2){
+      return <Contact></Contact>
+    } else if (currentPage === 3) {
       return <Projects></Projects>
-    } else {
+    }
+    else {
       return <Resume></Resume>
     }
   }
