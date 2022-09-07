@@ -52,6 +52,11 @@ footer .icons {
   justify-content: center;
 }
 
+footer a {
+  padding: 20px;
+  font-size: 30px;
+}
+
 footer p {
   text-align: center;
 }
