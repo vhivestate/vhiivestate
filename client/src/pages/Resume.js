@@ -3,9 +3,9 @@ import React from 'react'
 function Resume() {
   return (
 
-
+<div className='resume'>
+<h1>SKILLS</h1>
     <div className='skills'>
-
         <div className='frontend'>
         <h2>Frontend:</h2>
         <dl>
@@ -44,6 +44,7 @@ function Resume() {
                 <dd>- Tailwind</dd>
         </dl>
         </div>
+    </div>
     </div>
   )
 }

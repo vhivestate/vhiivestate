@@ -39,6 +39,11 @@ nav {
   justify-content: center;
 
 }
+.resume h1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 
 /* footer styling */
 footer .icons {
