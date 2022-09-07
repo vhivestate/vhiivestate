@@ -45,6 +45,19 @@ nav {
   justify-content: center;
 }
 
+/* project styling */
+.carousel {
+  text-align: center;
+}
+.projects {
+  align-content: center;
+}
+
+.projectPage {
+  text-align: center;
+
+}
+
 /* footer styling */
 footer .icons {
   display: flex;
