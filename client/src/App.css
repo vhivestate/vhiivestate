@@ -36,7 +36,7 @@ nav {
 footer .icons {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 footer p {
