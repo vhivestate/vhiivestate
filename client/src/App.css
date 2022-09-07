@@ -9,7 +9,20 @@ nav {
   flex-wrap: wrap;
   justify-content: space-around;
 }
+/* about styling */
+.about {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
 
+.avatar {
+  max-width: 50%;
+}
+
+.about p {
+  max-width: 50%;
+}
 /* contact form styling */
 .contactForm {
   text-align: center;
