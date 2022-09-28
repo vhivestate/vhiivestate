@@ -4,9 +4,7 @@ import { Twitter } from 'react-feather';
 import { GitHub } from 'react-feather';
 import { Instagram } from 'react-feather';
 import { Linkedin } from 'react-feather';
-import {TbBrandDiscord} from 'react-icons/tb'
-
-
+import { Mail } from 'react-feather';
 
 function Footer() {
     
@@ -18,6 +16,7 @@ function Footer() {
         <a href='https://github.com/vhivestate' className=''> <GitHub></GitHub> </a>
         <a href='https://www.instagram.com/vhive.jpg/' className=''> <Instagram></Instagram> </a>
         <a href='https://github.com/vhivestate' className=''> <Linkedin></Linkedin> </a>
+        <a href="mailto:garcia.valeria001@gmail.com"> <Mail></Mail> </a>
     </div>
   </div> 
   <div>
