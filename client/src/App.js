@@ -1,7 +1,7 @@
 import './App.css';
 import React from 'react'
 import About from "./pages/About"
-import Contact from "./pages/Contact"
+import Contact from "./ContactForm"
 import Landing from "./pages/Landing"
 import Projects from './pages/Projects';
 import Nav from "./components/Nav"
