@@ -1,39 +1,29 @@
 import './App.css';
-import React, {useState} from 'react'
+import React from 'react'
 import About from "./pages/About"
 import Contact from "./pages/Contact"
-import Projects from "./pages/Projects"
-import Resume from './pages/Resume';
+import Landing from "./pages/Landing"
+import Projects from './pages/Projects';
 import Nav from "./components/Nav"
-import Landing from './pages/Landing';
 import Footer from './components/Footer';
+import Resume from './pages/Resume';
+
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
-  const [currentPage, setCurrentPage] = useState(0)
-
-  function displayPage(){
-    if(currentPage === 0){
-      return <Landing></Landing>;
-    }else if(currentPage === 1){
-      return <About></About>
-    }else if (currentPage === 2){
-      return <Projects></Projects>
-    } else if (currentPage === 3) {
-      return <Contact></Contact>
-    }
-    else {
-      return <Resume></Resume>
-    }
-  }
 
   return (
-    <>
-      <Nav setCurrentPage={setCurrentPage}/>
-      {displayPage()}
-    <main>
-      <Footer></Footer>
-    </main>
-    </>
+    <Router>
+      <Nav/>
+      <Routes>
+        <Route path="/" element={<Landing/>}/>
+        <Route path="/about" element={<About/>}/>
+        <Route path="/projects" element={<Projects/>}/>
+        <Route path="/contact" element={<Contact/>}/>
+        <Route path="/resume" element={<Resume/>}/>
+      </Routes>
+      <Footer/>
+    </Router>
   )
 }
 
