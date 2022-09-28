@@ -11,27 +11,19 @@ import {TbBrandDiscord} from 'react-icons/tb'
 function Footer() {
     
   return (
-    <footer className="footer footer-center p-5 bg-base-200 text-base-content rounded">
-      <div className="grid grid-flow-col">
-        <a className="link link-hover text-lg">About us</a> 
-        <a className="link link-hover text-lg">Contact</a> 
-        <a className="link link-hover text-lg">Projects</a> 
-        <a className="link link-hover text-lg">Resume</a>
-    </div> 
-    <div>
-    <div className="grid grid-flow-col">
-    <a href='https://twitter.com/vhivestate'> <Twitter></Twitter> </a>
-        <a href='https://github.com/vhivestate'> <GitHub></GitHub> </a>
-        <a href='https://www.instagram.com/vhive.jpg/'> <Instagram></Instagram> </a>
-        <a href="https://discord.com/channels/950224023973933116/950224023973933121/">
-      <TbBrandDiscord /> </a>
-        <a href='https://github.com/vhivestate'> <Linkedin></Linkedin> </a>
+<footer className="footer-center bg-base-200 text-base-content">
+  <div>
+    <div className="flex flex-wrap justify-center p-0">
+    <a href='https://twitter.com/vhivestate' className=''> <Twitter></Twitter> </a>
+        <a href='https://github.com/vhivestate' className=''> <GitHub></GitHub> </a>
+        <a href='https://www.instagram.com/vhive.jpg/' className=''> <Instagram></Instagram> </a>
+        <a href='https://github.com/vhivestate' className=''> <Linkedin></Linkedin> </a>
     </div>
   </div> 
   <div>
-    <p>Copyright © 2022 - All right reserved by Vhivestate</p>
+    <p>Copyright © 2022 - All right reserved</p>
   </div>
-    </footer>
+</footer>
   )
 }
 export default Footer
