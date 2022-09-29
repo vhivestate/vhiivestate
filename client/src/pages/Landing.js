@@ -46,7 +46,7 @@ function Landing() {
 
 {/* skills */}
 <h2 className='text-center pt-10 text-5xl	'>SKILLS</h2>
-  <div className='resume flex flex-wrap justify-center p-8'>
+  <div className='resume flex flex-wrap justify-center p-8 space-x-4'>
 <div className="card w-96 bg-neutral text-neutral-content">
   <div className="card-body items-center text-center">
     <h2 className="card-title">FRONTEND</h2>
