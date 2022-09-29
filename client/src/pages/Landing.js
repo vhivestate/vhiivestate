@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 function Landing() {
   return (
@@ -9,8 +10,8 @@ function Landing() {
           <h1 className="mb-5 text-5xl font-bold">Hello there</h1>
           <p className="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
           <div className='flex justify-center space-x-4'  >
-          <button className="btn btn-primary">Portfolio</button>
-          <button className="btn btn-primary">Contact</button>
+          <button className="btn btn-primary"><Link to={'/projects'}>Portfolio</Link></button>
+          <button className="btn btn-primary"><Link to={'/about'}>About me</Link></button>
           </div>
         </div>
       </div>
