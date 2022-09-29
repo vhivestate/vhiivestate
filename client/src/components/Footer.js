@@ -9,7 +9,7 @@ import { Mail } from 'react-feather';
 function Footer() {
     
   return (
-<footer className="footer-center bg-base-200 text-base-content">
+<footer className="footer-center bg-[#251738] text-white">
   <div>
     <div className="flex flex-wrap justify-center p-0">
     <a href='https://twitter.com/vhivestate' className=''> <Twitter></Twitter> </a>
