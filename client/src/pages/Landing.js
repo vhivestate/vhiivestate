@@ -32,13 +32,14 @@ function Landing() {
       <h2 className="card-title">About me</h2>
       <div className='card-text '>
       <p>Web developer based out of Salt Lake City, Utah. </p>
-        <p className='min-w-fit '>From a young age I knew I wanted to work in tech. I landed my first job where my main duty was to instruct new users on system ultilization. In that role, I learned that I prefered to be on the tech side of things. </p>
         <p className='min-w-fit'>
-          Currently working from home for FedEx as a Senior Claims Analyst. Within this position I recieved tuition reimbursment which gave me the opportunity to pursue a career in tech. I graduated from The University of Utah and obtained my Full-Stack Development certificate.
+          Currently working from home for FedEx as a Senior Claims Analyst. I graduated from The University of Utah and obtained my Full-Stack Development certificate. Currently freelancing and a coding tutor.
         </p>
         </div>
-        <div className='justify-center'>
+        <div className='justify-center space-x-4'>
         <button className="btn btn-active justify-center"><Link to={'/projects'}>View Portfolio</Link></button>  
+        <button className="btn btn-active justify-center"> <a href="mailto:garcia.valeria001@gmail.com"> Contact me</a>
+</button> 
           </div>
         </div>
     </div>
