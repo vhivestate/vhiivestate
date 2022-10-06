@@ -10,7 +10,7 @@ function Projects() {
   return (
     
     <div className='projectPage bg-[#29243c78]'>
-<h2 className='text-center p-10 text-5xl	'>My Projects</h2>
+<h2 className='text-center p-10 text-5xl nav-a'>My Projects</h2>
     <div className='projects flex flex-wrap justify-center space-x-4'>
 
 <div>
@@ -20,7 +20,7 @@ function Projects() {
      </figure>
      <div className="card-body items-center text-center">
      <h2 className="card-title">Trim Down</h2>
-     <p> An application that creates an easy and fun way for users keep track of how much their daily habits are costing them.</p>
+     <p>Interactive MERN SPA project, this application that creates an easy and fun way for users keep track of how much their daily habits are costing them.</p>
      <div className="card-actions">
           <button className="btn btn-primary">
                <a href='https://trim-down.herokuapp.com/'>View website</a>
@@ -37,7 +37,7 @@ function Projects() {
      </figure>
      <div className="card-body items-center text-center">
      <h2 className="card-title">Modern Rolodex</h2>
-     <p>Taking a modern approach to a classic rolodex this websites allows users to save their contacts </p>
+     <p>Interactive full-stack project. Taking a modern approach to a classic rolodex this websites allows users to save their contacts. </p>
      <div className="card-actions">
           <button className="btn btn-primary">
           <a href='https://modernrolodex2.herokuapp.com/'>View website</a>
@@ -53,11 +53,11 @@ function Projects() {
      <img src={Book} alt="Shoes" className="rounded-xl" />
      </figure>
      <div className="card-body items-center text-center">
-     <h2 className="card-title">Shoes!</h2>
-     <p>If a dog chews shoes whose shoes does he choose?</p>
+     <h2 className="card-title">Book Finder</h2>
+     <p>This app was built using the MERN stack, with a React front end, MongoDB database, and Node.js/Express.js server and API.</p>
      <div className="card-actions">
      <button className="btn btn-primary">
-          <a href='https://modernrolodex2.herokuapp.com/'>View website</a>
+          <a href='https://booker-finder.herokuapp.com/'>View website</a>
           </button>
             </div>
        </div>
@@ -70,11 +70,11 @@ function Projects() {
      <img src={Schedule} alt="Shoes" className="rounded-xl" />
      </figure>
      <div className="card-body items-center text-center">
-     <h2 className="card-title">Shoes!</h2>
-     <p>If a dog chews shoes whose shoes does he choose?</p>
+     <h2 className="card-title"> Work Day Scheduler</h2>
+     <p> A simple calendar application that allows a user to save events for each hour of the day. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.</p>
      <div className="card-actions">
      <button className="btn btn-primary">
-          <a href='https://modernrolodex2.herokuapp.com/'>View website</a>
+          <a href='https://vhivestate.github.io/Work-Scheduler/'>View website</a>
           </button>   
           </div>
        </div>
@@ -87,11 +87,11 @@ function Projects() {
      <img src={Note} alt="Shoes" className="rounded-xl" />
      </figure>
      <div className="card-body items-center text-center">
-     <h2 className="card-title">Shoes!</h2>
-     <p>If a dog chews shoes whose shoes does he choose?</p>
+     <h2 className="card-title">Express Note Taker</h2>
+     <p>This application allows users to write and save notes. It uses an Express.js back end and saves and retrieves note data from a JSON file</p>
      <div className="card-actions">
      <button className="btn btn-primary">
-          <a href='https://modernrolodex2.herokuapp.com/'>View website</a>
+          <a href='https://note-taker007474.herokuapp.com/'>View website</a>
           </button>
         </div>
        </div>

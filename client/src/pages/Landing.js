@@ -17,7 +17,7 @@ function Landing() {
 
           </p>
           <div className='flex justify-center space-x-4'  >
-          <a href='#start' className="nav-a btn btn-active btn-wide btn-ghost">About me</a>
+          <a href='#start' className="nav-a btn btn-active btn-ghost">About me</a>
 
           </div>
         </div>
