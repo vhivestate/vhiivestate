@@ -5,17 +5,19 @@ import Badge from '../assets/badge-code.png'
 
 function Resume() {
   return (
-<div className='resume-page'>
+<div className='resume-page '>
 
 <div className='download-res '>
-<h1 className='text-center pt-14 p-4 text-3xl'>Download my resume</h1>
+<h1 className='res-head text-center pt-14 p-4 text-3xl'>DOWNLOAD RESUME</h1>
   <div className='flex flex-wrap justify-center'>
     <button className='text-center'><a href={ResumePdf} download="resume.22.pdf"><Download></Download></a>
     </button>
   </div>
 </div>
 
-<h2 className='text-center text-3xl p-5'>Certifications</h2>
+<div className="divider"></div> 
+
+<h2 className='res-head text-center text-3xl p-5'>CERTIFICATION</h2>
 <div className='flex flex-wrap justify-center'>
   <div className="card w-96 glass shadow-xl ">
     <figure className='p-5'><img src={Badge} alt="Shoes" /></figure>
@@ -31,8 +33,11 @@ function Resume() {
   </div>
 </div>
 
-<h2 className='text-center text-3xl p-5'>Skills</h2>
-<div className='resume flex flex-wrap justify-center'>
+<div className="divider"></div> 
+
+
+<h2 className='res-head text-center text-3xl p-5'>SKILLS</h2>
+<div className='resume-skills flex flex-wrap justify-center'>
 <div className="card w-96 bg-neutral text-neutral-content">
   <div className="card-body items-center text-center">
     <h2 className="card-title">FRONTEND</h2>

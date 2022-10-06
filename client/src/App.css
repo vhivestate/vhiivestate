@@ -1,8 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400;6..96,500;6..96,600;6..96,700;6..96,800;6..96,900&family=DM+Sans:wght@400;500&family=DM+Serif+Display&family=DM+Serif+Text&family=Didact+Gothic&family=Nanum+Myeongjo&family=Outfit:wght@100;200;300&family=Silkscreen&display=swap');
 /* nav styling */
 nav {
   display: flex;
@@ -33,10 +32,15 @@ nav {
 }
 
 /* resume styling */
-.skills {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+.res-head {
+  font-family: 'Outfit', sans-serif;
+  font-weight: lighter;
+  color: white;
+}
+
+
+.resume-skills {
+  font-family: 'Silkscreen', cursive;
 
 }
 .resume h1 {
@@ -63,6 +67,7 @@ footer .icons {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  
 }
 
 footer a {
