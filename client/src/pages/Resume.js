@@ -7,11 +7,17 @@ function Resume() {
   return (
 <div className='resume-page '>
 
-<div className='download-res '>
-<h1 className='res-head text-center pt-14 p-4 text-3xl'>DOWNLOAD RESUME</h1>
-  <div className='flex flex-wrap justify-center'>
-    <button className='text-center'><a href={ResumePdf} download="resume.22.pdf"><Download></Download></a>
-    </button>
+<div className='download-res flex flex-wrap justify-center pt-20'>
+
+<div className="card w-96 bg-neutral text-neutral-content">
+  <div className="card-body items-center text-center">
+    <h2 className='res-head card-title text-center p-4 text-3xl'>DOWNLOAD RESUME</h2>
+      <p>We are using cookies for no reason.</p>
+      <div className="card-actions justify-end">
+      <button className='text-center'><a href={ResumePdf} download="resume.22.pdf"><Download></Download></a>
+      </button>
+      </div>
+    </div>
   </div>
 </div>
 
@@ -37,7 +43,7 @@ function Resume() {
 
 
 <h2 className='res-head text-center text-3xl p-5'>SKILLS</h2>
-<div className='resume-skills flex flex-wrap justify-center'>
+<div className='resume-skills flex flex-wrap justify-center pb-9'>
 <div className="card w-96 bg-neutral text-neutral-content">
   <div className="card-body items-center text-center">
     <h2 className="card-title">FRONTEND</h2>
@@ -64,6 +70,9 @@ function Resume() {
   </div>
 </div>
 
+<div className="nav-a divider divider-horizontal text-xl">&</div>
+
+
 <div className="card w-96 bg-neutral text-neutral-content">
   <div className="card-body items-center text-center">
     <h2 className="card-title">BACKEND</h2>
@@ -86,10 +95,10 @@ function Resume() {
                 <dd>- Tailwind</dd>
         </dl>
         </div>
-    <div className="card-actions justify-end">
+      <div className="card-actions justify-end">
+      </div>
     </div>
   </div>
-</div>
 </div>
     </div>
   )
