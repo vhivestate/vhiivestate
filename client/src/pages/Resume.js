@@ -7,14 +7,16 @@ function Resume() {
   return (
 <div className='resume-page'>
 
-<div>
-<h1 className='text-center p-9'>Download my resume</h1>
-<button className='text-center'><a href={ResumePdf} download="resume.22.pdf"><Download></Download></a>
-</button>
+<div className='download-res '>
+<h1 className='text-center pt-14'>Download my resume</h1>
+  <div className='flex flex-wrap justify-center'>
+    <button className='text-center'><a href={ResumePdf} download="resume.22.pdf"><Download></Download></a>
+    </button>
+  </div>
 </div>
 
-<div>
 <h2 className='text-center'>Certifications</h2>
+<div className='flex flex-wrap justify-center'>
   <div className="card w-96 glass shadow-xl ">
     <figure className='p-5'><img src={Badge} alt="Shoes" /></figure>
     <div className="card-body">
