@@ -9,11 +9,22 @@ nav {
   flex-wrap: wrap;
   justify-content: space-around;
 }
+
+.nav-a {
+  font-family: 'Outfit', sans-serif;
+  font-weight: light;
+}
+
 /* about styling */
 .about {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+}
+
+.about-btn {
+  font-family: 'Outfit', sans-serif;
+  font-weight: light;
 }
 
 .avatar {

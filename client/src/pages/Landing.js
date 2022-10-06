@@ -23,13 +23,14 @@ function Landing() {
         </div>
       </div>
     </div>
+    <h2 className='landing-skills text-center pt-10 text-5xl	bg-[#29243c78]'>ABOUT ME</h2>
 
     <div className='bg-[#29243c78]'>
     <div className='about pt-14'>
   <div className="card lg:card-side glass shadow-xl w-10/12 p-2">
     <figure><img src={Photo} alt="Album"/></figure>
     <div className="card-body	w-auto">
-      <h2 className="card-title">About me</h2>
+      <h2 className="card-title">Valeria Garcia</h2>
       <div className='card-text '>
       <p>Web developer based out of Salt Lake City, Utah. </p>
         <p className='min-w-fit'>
@@ -37,8 +38,8 @@ function Landing() {
         </p>
         </div>
         <div className='justify-center space-x-4'>
-        <button className="btn btn-active justify-center"><Link to={'/projects'}>View Portfolio</Link></button>  
-        <button className="btn btn-active justify-center"> <a href="mailto:garcia.valeria001@gmail.com"> Contact me</a>
+        <button className="about-btn btn btn-active justify-center"><Link to={'/projects'}>View Portfolio</Link></button>  
+        <button className="about-btn btn btn-active justify-center"> <a href="mailto:garcia.valeria001@gmail.com"> Contact me</a>
 </button> 
           </div>
         </div>
