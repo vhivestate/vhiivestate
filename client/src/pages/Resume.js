@@ -1,10 +1,35 @@
 import React from 'react'
+import { Download } from 'react-feather';
+import ResumePdf from '../assets/resume.22.pdf'
+import Badge from '../assets/badge-code.png'
 
 function Resume() {
   return (
+<div className='resume-page'>
+
+<div>
+<h1 className='text-center p-9'>Download my resume</h1>
+<button className='text-center'><a href={ResumePdf} download="resume.22.pdf"><Download></Download></a>
+</button>
+</div>
+
+<div>
+<h2>Certifications</h2>
+  <div className="card w-96 glass shadow-xl ">
+    <figure className='p-5'><img src={Badge} alt="Shoes" /></figure>
+    <div className="card-body">
+      <h2 className="card-title justify-center">University of Utah</h2>
+      <p className='text-center'>Full Stack Developer Certification</p>
+      <div className="card-actions justify-center">
+      <button className="btn btn-primary">
+                <a href='https://www.credly.com/badges/e6040418-d001-43ac-ade5-cc7f8da2fe4d/linked_in_profile'>View Credential</a>
+            </button>
+        </div>
+    </div>
+  </div>
+</div>
 
 <div className='resume flex flex-wrap justify-center'>
-
 <div className="card w-96 bg-neutral text-neutral-content">
   <div className="card-body items-center text-center">
     <h2 className="card-title">FRONTEND</h2>
@@ -57,7 +82,7 @@ function Resume() {
     </div>
   </div>
 </div>
-
+</div>
     </div>
   )
 }

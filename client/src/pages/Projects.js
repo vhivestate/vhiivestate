@@ -11,7 +11,7 @@ function Projects() {
     
     <div className='projectPage bg-[#29243c78]'>
 <h2 className='text-center p-10 text-5xl	'>My Projects</h2>
-    <div className='projects flex flex-wrap justify-center'>
+    <div className='projects flex flex-wrap justify-center space-x-4'>
 
 <div>
     <div className="card w-96 glass shadow-xl ">
