@@ -25,7 +25,7 @@ function Resume() {
       <h2 className="card-title justify-center">University of Utah</h2>
       <p className='text-center'>Full Stack Developer Certification</p>
       <div className="card-actions justify-center">
-      <button className="btn btn-primary">
+      <button className="nav-a btn btn-active">
                 <a href='https://www.credly.com/badges/e6040418-d001-43ac-ade5-cc7f8da2fe4d/linked_in_profile'>View Credential</a>
             </button>
         </div>
