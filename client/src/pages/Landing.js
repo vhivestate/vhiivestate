@@ -17,13 +17,14 @@ function Landing() {
 
           </p>
           <div className='flex justify-center space-x-4'  >
-          <a href="mailto:garcia.valeria001@gmail.com"> <Mail></Mail> </a>
+          <a href='#start' className="nav-a btn btn-outline">About</a>
 
           </div>
         </div>
       </div>
     </div>
-    <h2 className='landing-skills text-center pt-10 text-5xl	bg-[#29243c78]'>ABOUT ME</h2>
+
+    <h2 id='start' className='landing-skills text-center pt-10 text-5xl	bg-[#29243c78]'>ABOUT ME</h2>
 
     <div className='bg-[#29243c78]'>
     <div className='about pt-14'>
