@@ -27,80 +27,82 @@ function Landing() {
 
     <div className='bg-[#29243c78]'>
     <div className='about pt-14'>
-  <div className="card lg:card-side glass shadow-xl w-10/12 p-2">
-    <figure><img src={Photo} alt="Album"/></figure>
-    <div className="card-body	w-auto">
-      <h2 className="card-title">Valeria Garcia</h2>
-      <div className='card-text '>
-      <p>Web developer based out of Salt Lake City, Utah. </p>
-        <p className='min-w-fit'>
-          Currently working from home for FedEx as a Senior Claims Analyst. I graduated from The University of Utah and obtained my Full-Stack Development certificate. Currently freelancing and a coding tutor.
-        </p>
-        </div>
-        <div className='justify-center space-x-4'>
-        <button className="about-btn btn btn-active justify-center"><Link to={'/projects'}>View Portfolio</Link></button>  
-        <button className="about-btn btn btn-active justify-center"> <a href="mailto:garcia.valeria001@gmail.com"> Contact me</a>
-</button> 
+    <div className="card lg:card-side glass shadow-xl w-10/12 p-2">
+      <figure><img src={Photo} alt="Album"/></figure>
+      <div className="card-body	w-auto">
+        <h2 className="card-title">Valeria Garcia</h2>
+        <div className='card-text '>
+        <p>Web developer based out of Salt Lake City, Utah. </p>
+          <p className='min-w-fit'>
+            Currently working from home for FedEx as a Senior Claims Analyst. I graduated from The University of Utah and obtained my Full-Stack Development certificate. Currently freelancing and a coding tutor.
+          </p>
           </div>
-        </div>
+          <div className='justify-center space-x-4'>
+          <button className="about-btn btn btn-active justify-center"><Link to={'/projects'}>View Portfolio</Link></button>  
+          <button className="about-btn btn btn-active justify-center"> <a href="mailto:garcia.valeria001@gmail.com"> Contact me</a>
+  </button> 
+            </div>
+          </div>
+      </div>
     </div>
-  </div>
+
+  <div className="divider"></div> 
 
 {/* skills */}
 <h2 className='landing-skills text-center pt-10 text-5xl	'>SKILLS</h2>
   <div className='resume-skills flex flex-wrap justify-center p-8 space-x-4'>
-<div className="card w-96 bg-neutral text-neutral-content">
-  <div className="card-body items-center text-center">
-    <h2 className="card-title">FRONTEND</h2>
-    <div className='frontend'>
-        <dl>
-            <dt>HTML:</dt>
-                <dd> - Forms & Validation</dd>
-                <dd> - Semantic Tags</dd>
-                <dd> - Accessibility</dd>
-            <dt>CSS:</dt>
-                <dd>- Flexbox</dd>
-                <dd>- Responsive Design</dd>
-                <dd>- Media Queries</dd>
-            <dt>JavaScript:</dt>
-                <dd> - ES6 + Syntax </dd>
-                <dd> - DOM Manipulation </dd>
-                <dd> - Fetch API or AJAX</dd>
-                <dd> - Hoisting, Closures, Event Bubbling</dd>
-        </dl>
-        </div>
-    <div className="card-actions justify-end">
+    <div className="card w-96 bg-neutral text-neutral-content">
+      <div className="card-body items-center text-center">
+        <h2 className="card-title">FRONTEND</h2>
+        <div className='frontend'>
+            <dl>
+                <dt>HTML:</dt>
+                    <dd> - Forms & Validation</dd>
+                    <dd> - Semantic Tags</dd>
+                    <dd> - Accessibility</dd>
+                <dt>CSS:</dt>
+                    <dd>- Flexbox</dd>
+                    <dd>- Responsive Design</dd>
+                    <dd>- Media Queries</dd>
+                <dt>JavaScript:</dt>
+                    <dd> - ES6 + Syntax </dd>
+                    <dd> - DOM Manipulation </dd>
+                    <dd> - Fetch API or AJAX</dd>
+                    <dd> - Hoisting, Closures, Event Bubbling</dd>
+            </dl>
+            </div>
+        <div className="card-actions justify-end">
 
-    </div>
-  </div>
-</div>
-
-<div className="card w-96 bg-neutral text-neutral-content">
-  <div className="card-body items-center text-center">
-    <h2 className="card-title">BACKEND</h2>
-    <div className='backend'>
-      
-        <dl>
-            <dt>Node.js</dt>
-            <dt>Database:</dt>
-                <dd>- MongoDB</dd>
-                <dd>- GraphQL</dd>
-                <dd>- MySQL</dd>
-            <dt>API:</dt>
-                <dd>- REST</dd>
-                <dd>- JSON</dd>
-                <dd>- SOAP</dd>
-            <dt>Express.js</dt>
-            <dt>Frameworks:</dt>
-                <dd>- React.js</dd>
-                <dd>- Bootstrap</dd>
-                <dd>- Tailwind</dd>
-        </dl>
         </div>
-    <div className="card-actions justify-end">
+      </div>
     </div>
-  </div>
-</div>
+
+    <div className="card w-96 bg-neutral text-neutral-content">
+      <div className="card-body items-center text-center">
+        <h2 className="card-title">BACKEND</h2>
+        <div className='backend'>
+          
+            <dl>
+                <dt>Node.js</dt>
+                <dt>Database:</dt>
+                    <dd>- MongoDB</dd>
+                    <dd>- GraphQL</dd>
+                    <dd>- MySQL</dd>
+                <dt>API:</dt>
+                    <dd>- REST</dd>
+                    <dd>- JSON</dd>
+                    <dd>- SOAP</dd>
+                <dt>Express.js</dt>
+                <dt>Frameworks:</dt>
+                    <dd>- React.js</dd>
+                    <dd>- Bootstrap</dd>
+                    <dd>- Tailwind</dd>
+            </dl>
+            </div>
+        <div className="card-actions justify-end">
+        </div>
+      </div>
+    </div>
 
     </div>
 
