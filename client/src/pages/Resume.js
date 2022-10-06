@@ -14,7 +14,7 @@ function Resume() {
 </div>
 
 <div>
-<h2>Certifications</h2>
+<h2 className='text-center'>Certifications</h2>
   <div className="card w-96 glass shadow-xl ">
     <figure className='p-5'><img src={Badge} alt="Shoes" /></figure>
     <div className="card-body">
@@ -29,6 +29,7 @@ function Resume() {
   </div>
 </div>
 
+<h2 className='text-center'>Skills</h2>
 <div className='resume flex flex-wrap justify-center'>
 <div className="card w-96 bg-neutral text-neutral-content">
   <div className="card-body items-center text-center">
