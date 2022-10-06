@@ -15,7 +15,7 @@ function Resume() {
   </div>
 </div>
 
-<div className="divider"></div> 
+<div className="divider pt-9"></div> 
 
 <h2 className='res-head text-center text-3xl p-5'>CERTIFICATION</h2>
 <div className='flex flex-wrap justify-center'>
@@ -33,7 +33,7 @@ function Resume() {
   </div>
 </div>
 
-<div className="divider"></div> 
+<div className="divider pt-9"></div> 
 
 
 <h2 className='res-head text-center text-3xl p-5'>SKILLS</h2>
