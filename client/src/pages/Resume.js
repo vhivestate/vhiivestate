@@ -23,7 +23,7 @@ function Resume() {
 <div className="divider pt-9"></div> 
 
 <h2 className='res-head text-center text-3xl p-5'>CERTIFICATION</h2>
-<div className='flex flex-wrap justify-center'>
+<div className='flex flex-wrap justify-center text-white'>
   <div className="card w-96 glass shadow-xl ">
     <figure className='p-5'><img src={Badge} alt="Shoes" /></figure>
     <div className="card-body">
@@ -41,12 +41,12 @@ function Resume() {
 <div className="divider pt-9"></div> 
 
 
-<h2 className='res-head text-center text-3xl p-5'>SKILLS</h2>
+<h2 className='res-head text-center text-3xl p-5 '>SKILLS</h2>
 <div className='resume-skills flex flex-wrap justify-center pb-9'>
 <div className="card w-96 bg-neutral text-neutral-content">
   <div className="card-body items-center text-center">
-    <h2 className="card-title">FRONTEND</h2>
-    <div className='frontend'>
+    <h2 className="card-title text-white">FRONTEND</h2>
+    <div className='frontend text-white'>
         <dl>
             <dt>HTML:</dt>
                 <dd> - Forms & Validation</dd>
@@ -74,8 +74,8 @@ function Resume() {
 
 <div className="card w-96 bg-neutral text-neutral-content">
   <div className="card-body items-center text-center">
-    <h2 className="card-title">BACKEND</h2>
-    <div className='backend'>
+    <h2 className="card-title text-white">BACKEND</h2>
+    <div className='backend text-white'>
       
         <dl>
             <dt>Node.js</dt>

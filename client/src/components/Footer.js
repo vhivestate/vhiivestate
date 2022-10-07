@@ -20,7 +20,7 @@ function Footer() {
     </div>
   </div> 
   <div>
-    <p>Copyright © 2022 - All right reserved</p>
+    <p className='res-head text-white'>Copyright © 2022 - All right reserved</p>
   </div>
 </footer>
   )
