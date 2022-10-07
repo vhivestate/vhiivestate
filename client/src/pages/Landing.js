@@ -1,8 +1,6 @@
 import React from 'react'
 import Photo from '../headshot.png'
 import { Link } from 'react-router-dom';
-import { Mail } from 'react-feather';
-
 
 function Landing() {
   return (
@@ -12,40 +10,64 @@ function Landing() {
       <div className="hero-content text-center">
         <div className="max-w-md">
           <h1 className="mb-5 text-5xl font-bold">WEB DEVELOPER </h1>
-          <h2>I'm Valeria Garcia a Full-Stack web developer based out of Salt Lake City, Utah</h2>
+          <h2>Freelance Full-Stack Web Developer</h2>
           <p className="mb-5">
 
           </p>
           <div className='flex justify-center space-x-4'  >
-          <a href='#start' className="nav-a btn btn-active btn-ghost">About me</a>
+          <a href='#start' className="nav-a btn btn-active btn-ghost">About</a>
 
           </div>
         </div>
       </div>
     </div>
 
-    <h2 id='start' className='landing-skills text-center pt-10 text-5xl	bg-[#29243c78]'>ABOUT ME</h2>
+    {/* ABOUT */}
 
+    <h2 id='start' className='landing-skills text-center pt-10 text-5xl	bg-[#29243c78]'>ABOUT</h2>
     <div className='bg-[#29243c78]'>
     <div className='about pt-14'>
-    <div className="card lg:card-side glass shadow-xl w-10/12 p-5">
+    <div className="card lg:card-side w-10/12 p-5 glass">
       <figure><img src={Photo} alt="Album"/></figure>
-      <div className="card-body	w-auto">
+      <div className="card-body justify-around ">
         <h2 className="card-title">Valeria Garcia</h2>
-        <div className='card-text '>
-        <p>Web developer based out of Salt Lake City, Utah. </p>
-          <p className='min-w-fit'>
-            Currently working from home for FedEx as a Senior Claims Analyst. I graduated from The University of Utah and obtained my Full-Stack Development certificate. Currently freelancing and a coding tutor.
-          </p>
+        <div className='card-text'>
+        <p className='min-w-fit'>Expirenced web developer based out of Salt Lake City, Utah. Graduated from The University of Utah with Full-Stack Web Development Certificate. Providing everything you need for your perfect website. </p>
           </div>
-          <div className='justify-center space-x-4'>
-          <button className="about-btn btn btn-active justify-center text-white"><Link to={'/projects'}>View Portfolio</Link></button>  
-          <button className="about-btn btn btn-active justify-center text-white"> <a href="mailto:garcia.valeria001@gmail.com"> Contact me</a>
+          <div className='flex flex-wrap p-3 justify-around'>
+          <button className="about-btn btn btn-active  text-white"><Link to={'/projects'}>View Portfolio</Link></button>  
+          <button className="about-btn btn btn-active  text-white "> <a href="mailto:garcia.valeria001@gmail.com"> Contact me</a>
   </button> 
             </div>
           </div>
       </div>
     </div>
+
+  <div className="divider pt-9"></div> 
+
+  {/* services */}
+  <h2 className='landing-skills text-center pt-10 text-5xl	'>SERVICES</h2>
+
+  <div className='services flex flex-wrap justify-center pt-9'>
+    <div className="card w-96 bg-neutral ">
+        <div className="card-body items-center text-center">
+          <h2 className="card-title">WEB DEVELOPMENT</h2>
+          <div className='frontend'>
+              <dl>
+                  <dt>Landing Page</dt>
+                  <dt>Ecommerce Website</dt>
+                  <dt>Booking Website</dt>
+                  <dt>Management System</dt>
+                  <dt>Contact Form</dt>
+                  <dt>Portfolio</dt>
+              </dl>
+              </div>
+          <div className="card-actions justify-end">
+
+        </div>
+      </div>
+    </div>
+  </div>
 
   <div className="divider pt-9"></div> 
 
