@@ -11,7 +11,7 @@ function Projects() {
     
     <div className='projectPage bg-[#29243c78]'>
 <h2 className='text-center p-10 pt-24 text-5xl res-head'>PROJECTS</h2>
-    <div className='projects flex flex-wrap justify-center space-x-4'>
+    <div className='projects flex flex-wrap justify-around'>
 
 <div>
     <div className="card w-96 glass shadow-xl text-white">
@@ -81,7 +81,7 @@ function Projects() {
      </div>
 </div>
 
-<div className='p-9'>
+<div className='pt-9 pb-9'>
     <div className="card w-96 glass shadow-xl text-white">
      <figure className="px-10 pt-10">
      <img src={Note} alt="Shoes" className="rounded-xl" />
