@@ -5,7 +5,7 @@ import Badge from '../assets/badge-code.png'
 
 function Resume() {
   return (
-<div className='resume-page '>
+<div className='resume-page bg-[#29243c78]'>
 
 <div className='download-res flex flex-wrap justify-center pt-20'>
 
@@ -27,11 +27,11 @@ function Resume() {
   <div className="card w-96 glass shadow-xl ">
     <figure className='p-5'><img src={Badge} alt="Shoes" /></figure>
     <div className="card-body">
-      <h2 className="card-title justify-center">University of Utah</h2>
+      <h2 className="card-title justify-center the-u">University of Utah</h2>
       <p className='text-center'>Full Stack Developer Certification</p>
       <div className="card-actions justify-center">
       <button className="nav-a btn btn-active">
-                <a href='https://www.credly.com/badges/e6040418-d001-43ac-ade5-cc7f8da2fe4d/linked_in_profile'>View Credential</a>
+                <a href='https://www.credly.com/badges/e6040418-d001-43ac-ade5-cc7f8da2fe4d/linked_in_profile'>View Credentials</a>
             </button>
         </div>
     </div>

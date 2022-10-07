@@ -10,7 +10,7 @@ function Projects() {
   return (
     
     <div className='projectPage bg-[#29243c78]'>
-<h2 className='text-center p-10 text-5xl nav-a'>My Projects</h2>
+<h2 className='text-center p-10 text-5xl res-head'>My Projects</h2>
     <div className='projects flex flex-wrap justify-center space-x-4'>
 
 <div>
