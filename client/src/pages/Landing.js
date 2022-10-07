@@ -6,10 +6,10 @@ import { Mail } from 'react-feather';
 
 function Landing() {
   return (
-    <div>
+    <div className='text-white'>
     <div className="hero min-h-screen bg-top" style={{ backgroundImage: `url("https://sat02pap005files.storage.live.com/y4mccQegH1llhIfqRKMdAXiRthJjyBcQ1H1eBSvib3C8Nx5u_C181cxK4SgIMiBjg8lZJw4ul0AR1ZxSLO-bWrWZ8WrFU3-_wVy1qA0K530m8otUr5vNpgZBdEzMG52cbqwhyDZqoo8js9ZCM8sLZntIjyjRzx9jcPb8HhDyqcQz-MiC4NhBT4g4JjRFMn_hfb1?width=1024&height=683&cropmode=none")` }}>
       <div className="hero-overlay bg-opacity-60"></div>
-      <div className="hero-content text-center text-neutral-content">
+      <div className="hero-content text-center">
         <div className="max-w-md">
           <h1 className="mb-5 text-5xl font-bold">WEB DEVELOPER </h1>
           <h2>I'm Valeria Garcia a Full-Stack web developer based out of Salt Lake City, Utah</h2>
@@ -28,7 +28,7 @@ function Landing() {
 
     <div className='bg-[#29243c78]'>
     <div className='about pt-14'>
-    <div className="card lg:card-side glass shadow-xl w-10/12 p-2">
+    <div className="card lg:card-side glass shadow-xl w-10/12 p-5">
       <figure><img src={Photo} alt="Album"/></figure>
       <div className="card-body	w-auto">
         <h2 className="card-title">Valeria Garcia</h2>
@@ -39,8 +39,8 @@ function Landing() {
           </p>
           </div>
           <div className='justify-center space-x-4'>
-          <button className="about-btn btn btn-active justify-center"><Link to={'/projects'}>View Portfolio</Link></button>  
-          <button className="about-btn btn btn-active justify-center"> <a href="mailto:garcia.valeria001@gmail.com"> Contact me</a>
+          <button className="about-btn btn btn-active justify-center text-white"><Link to={'/projects'}>View Portfolio</Link></button>  
+          <button className="about-btn btn btn-active justify-center text-white"> <a href="mailto:garcia.valeria001@gmail.com"> Contact me</a>
   </button> 
             </div>
           </div>
@@ -51,8 +51,8 @@ function Landing() {
 
 {/* skills */}
 <h2 className='landing-skills text-center pt-10 text-5xl	'>SKILLS</h2>
-  <div className='resume-skills flex flex-wrap justify-center p-8 space-x-4'>
-    <div className="card w-96 bg-neutral text-neutral-content">
+  <div className='resume-skills flex flex-wrap justify-center p-8 space-x-4 '>
+    <div className="card w-96 bg-neutral ">
       <div className="card-body items-center text-center">
         <h2 className="card-title">FRONTEND</h2>
         <div className='frontend'>
@@ -80,7 +80,7 @@ function Landing() {
 
     <div className="nav-a divider divider-horizontal text-xl">&</div>
 
-    <div className="card w-96 bg-neutral text-neutral-content">
+    <div className="card w-96 bg-neutral">
       <div className="card-body items-center text-center">
         <h2 className="card-title">BACKEND</h2>
         <div className='backend'>
