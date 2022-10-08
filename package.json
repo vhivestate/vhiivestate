@@ -1,7 +1,7 @@
 {
   "name": "client",
   "version": "0.1.0",
-  
+
   "dependencies": {
     "daisyui": "^2.31.0",
     "react": "^18.2.0",
@@ -12,6 +12,7 @@
     "tailwindcss": "^3.1.8"
   },
   "scripts": {
+    "start": "cd client && npm start",
     "develop": "cd client && npm start",
     "install": "cd client && npm i",
     "build": "cd client && npm run build"
