@@ -10,7 +10,7 @@ function Landing() {
       <div className="hero-content text-center">
         <div className="max-w-md">
           <h1 className="mb-5 text-5xl font-bold">WEB DEVELOPER </h1>
-          <h2>Freelance Full-Stack Web Developer</h2>
+          <h2>Freelancer Specializing in Full-Stack Web Developer</h2>
           <p className="mb-5">
 
           </p>
@@ -32,9 +32,9 @@ function Landing() {
       <div className="card-body justify-around ">
         <h2 className="card-title">Valeria Garcia</h2>
         <div className='card-text'>
-        <p className='min-w-fit'>Expirenced web developer based out of Salt Lake City, Utah. Graduated from The University of Utah with Full-Stack Web Development Certificate. Providing everything you need for your perfect website. </p>
+        <p className='min-w-fit'>Currently a Senior Liabilty Analyst based out of Salt Lake City, Utah. Graduated from The University of Utah with Full-Stack Web Development Certificate making me an experienced web developer. I am here to provide everything you will need for your perfect website. </p>
           </div>
-          <div className='flex flex-wrap p-3 justify-around'>
+          <div className='flex flex-wrap p-3 justify-center'>
           <button className="about-btn btn btn-active  text-white"><Link to={'/projects'}>View Portfolio</Link></button>  
           <button className="about-btn btn btn-active  text-white "> <a href="mailto:garcia.valeria001@gmail.com"> Contact me</a>
   </button> 
